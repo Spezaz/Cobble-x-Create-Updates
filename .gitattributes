@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Preserve exact bytes for Packwiz-managed files
+/config/** -text
+/kubejs/** -text
