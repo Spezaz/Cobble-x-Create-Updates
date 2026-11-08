@@ -2096,7 +2096,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "a21d5d0e2e3c1b5662ca1dc907cf496bb9f2a94b368a3f291967e8ba29043eaa"
+hash = "af68f400faa4564bfaa16509dedcb2dbafb8c3a0154d6e4e0b1443bcb4c6d536"
 metafile = true
 
 [[files]]
@@ -2111,7 +2111,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-ropes.pw.toml"
-hash = "e189f1506a86bad552082202c718a298975da0b6463283b3a6cb54f00010fcc5"
+hash = "5ded9cce907490bfb24798fb5edb1133c88ee76378d4c0f64138a7e1583de8df"
 metafile = true
 
 [[files]]
