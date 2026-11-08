@@ -673,10 +673,6 @@ file = "config/brecher_breeding/brecher_breeding-common.toml"
 hash = "621cbaa0a7a79a2f98ea35f14c4633136528aa46c55a0398af15ae251e68d16b"
 
 [[files]]
-file = "config/brecher_breeding/keys/sealing.key"
-hash = "0f216ed5abe31e1b1fd0fa61adbc2858b44fd40086d0d6c0c4905875ea4cc031"
-
-[[files]]
 file = "config/buildinggadgets2-common.toml"
 hash = "596a9276f68bd49ad010420cbcad2c84d093553478fd1f91c3d66579f2416776"
 
