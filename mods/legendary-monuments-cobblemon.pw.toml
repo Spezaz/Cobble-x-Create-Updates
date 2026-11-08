@@ -1,0 +1,13 @@
+name = "Cobblemon: Legendary Monuments"
+filename = "legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c3a6110ef5356e39b8647f6e8ddd6bc53915644"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9064767
+project-id = 1263645

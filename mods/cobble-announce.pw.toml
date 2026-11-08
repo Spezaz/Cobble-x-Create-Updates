@@ -1,0 +1,13 @@
+name = "[Cobblemon] Cobble Announce"
+filename = "cobbleannounce-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfbeb2457d212ca0d0da4be6adc97d27ed7b0863"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8344586
+project-id = 1514510

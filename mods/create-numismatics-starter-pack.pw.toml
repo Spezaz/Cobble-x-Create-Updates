@@ -1,0 +1,13 @@
+name = "Create : Numismatics Starter Pack (works without Numismatics too)"
+filename = "createnumismaticsplus-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3dcd765de701046ca5ad7f94acd9c42417570326"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8039409
+project-id = 1531662

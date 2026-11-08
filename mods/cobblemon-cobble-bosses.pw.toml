@@ -1,0 +1,13 @@
+name = "Cobblemon: Cobble Bosses"
+filename = "cobblebosses-neoforge-0.26.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa6f82fc2c0a6a608c77085b2c790b2dcee40ca8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9501332
+project-id = 1776807

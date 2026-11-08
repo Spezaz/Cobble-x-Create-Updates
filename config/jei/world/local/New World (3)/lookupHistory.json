@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"cobblemon:remedy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simpletms:case_tr"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simpletms:case_tm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simpletms:machine_tm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:relic_coin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:gilded_chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:budding_unobtainium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justdynathings:echoing_budding_unobtainium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:unobtainium_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:unobtainium_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:unobtainium_cluster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"georenouveau:unobtainium_geore_golem_charm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:budding_allthemodium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:allthemodium_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"geore:allthemodium_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justdynathings:echoing_budding_allthemodium"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,83 @@
+#Breeding schedule. At normal server speed, 20 ticks equal one second. Changes take effect after a restart.
+[breeding]
+	#Master switch for pasture breeding. Eggs already created still incubate and hatch when this is off.
+	breeding_enabled = true
+	#Shortest delay before an active pasture produces its next egg. Minimum 20 ticks.
+	min_breeding_ticks = 8000
+	#Longest delay before the next egg. Minimum 20 ticks; values below min_breeding_ticks are raised to match it.
+	max_breeding_ticks = 14000
+	#Breeding time retained while a pasture is full or unloaded. Earned eggs arrive when room returns; 0 retains only an egg already due.
+	max_banked_breeding_ticks = 1728000
+	#Interval between attempts by a pastured Mirror Herb holder to learn egg moves from pasture mates. Minimum 20 ticks.
+	mirror_herb_ticks = 600
+
+#Pasture limits, egg storage, and item automation.
+[pasture]
+	#Pastures one player may keep breeding at once. -1 means unlimited.
+	max_active_pastures_per_player = -1
+	#Eggs a pasture may hold before breeding pauses, from 1 to 27. Lowering this never removes stored eggs.
+	pasture_egg_capacity = 5
+	#Allow hoppers and item pipes beneath a pasture to extract waiting eggs.
+	pasture_hopper_extraction = true
+
+#Egg hatching and the traits an offspring may receive.
+[offspring]
+	#Hatch time assigned when an egg is created, from 0.001 to 1000. 0.5 is twice as fast; 2.0 takes twice as long. Existing eggs keep their time.
+	egg_hatch_multiplier = 1.0
+	#Allow offspring to roll a hidden ability that neither parent passed down.
+	hidden_abilities_enabled = true
+	#Always inherit a forced ability from the mother, or from the non-Ditto parent.
+	forced_abilities_enabled = false
+	#Comma-separated species feature keys inherited from the mother, or from the non-Ditto parent.
+	inherited_features = "bagworm_cloak,color,dance_style,fish_stripes,striped,magikarp_jump,mooshtank,region_bias,alolan,galarian,hisuian,paldean,bull_breed,tatsugiri_texture,whiscash_nero,wooper_heart,wolf_form"
+	#Hide an egg's species and rolled traits from players until it hatches.
+	egg_secrecy_enabled = true
+	#Chance from 0.0 to 1.0 that a hatchling without inherited alpha status becomes alpha; 0.05 is 5%.
+	alpha_chance = 0.05
+	#Always make the offspring alpha when the mother, or the non-Ditto parent, is alpha.
+	inherit_alpha = false
+
+#Starts with Cobblemon's shinyRate (normally 1 in 8192), then divides that denominator by each applicable multiplier.
+[shiny]
+	#Applied when the parents have different original trainers. 1 makes no change; 0 prevents those eggs from being shiny.
+	shiny_masuda_multiplier = 4.0
+	#Applied once per shiny parent. 1 makes no change; 0 prevents eggs with a shiny parent from being shiny.
+	shiny_crystal_multiplier = 1.0
+	#Applied to every egg. 1 makes no change; 0 prevents all bred eggs from being shiny.
+	shiny_always_multiplier = 1.0
+
+#Controls the optional random-species egg made by two Ditto.
+[ditto]
+	#Allow two Ditto to produce an egg of a random eligible species.
+	ditto_ditto_random_egg = false
+	#Include legendary and mythical species in the random Ditto pool.
+	ditto_ditto_allow_legendary = false
+	#Include Paradox species in the random Ditto pool.
+	ditto_ditto_allow_paradox = false
+	#Include Ultra Beasts in the random Ditto pool.
+	ditto_ditto_allow_ultra_beast = false
+	#Include species in the Undiscovered egg group in the random Ditto pool.
+	ditto_ditto_allow_undiscovered = false
+
+#Incubator speed, access, storage, and automation.
+[incubator]
+	#Allow incubators to advance the eggs they contain.
+	incubator_enabled = true
+	#Incubation speed relative to carrying an egg, from 0.01 to 100. 2.0 is twice as fast; 0.5 is half speed.
+	incubator_speed_multiplier = 1.0
+	#Limit opening an incubator to the player who placed it and server operators.
+	incubator_owner_only = true
+	#Allow hoppers and item pipes to insert eggs and extract eggs that are ready.
+	incubator_automation = true
+	#Usable egg slots, from 1 to 6. Lowering this never removes stored eggs; new eggs wait until the incubator is below the limit.
+	incubator_slots = 1
+
+#Controls background conversion of eggs left by the Cobbreeding mod.
+[migration]
+	#Interval between scans of online players' inventories for eggs from the Cobbreeding mod. Minimum 20 ticks.
+	legacy_scan_interval_ticks = 100
+
+#Controls how dedicated servers obtain the key used to seal egg data.
+[security]
+	#Require a dedicated server to have keys/sealing.key or an override instead of generating a key. Recommended for multi-server networks.
+	require_provisioned_keyring = false

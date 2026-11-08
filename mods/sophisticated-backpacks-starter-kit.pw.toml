@@ -1,0 +1,13 @@
+name = "Simple Sophisticated Backpacks Kit"
+filename = "starterkitsophisticatedbackpacks-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45dd10fbe99e82a26ac762f8e7371ed7fbec459c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8056293
+project-id = 1536977

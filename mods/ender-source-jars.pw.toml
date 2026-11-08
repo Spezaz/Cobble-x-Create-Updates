@@ -1,0 +1,13 @@
+name = "Ender Source Jars"
+filename = "endersourcejars-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7ed80050cdfe63931fcb1a42c0b8705aa5ed5c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8149273
+project-id = 1490243

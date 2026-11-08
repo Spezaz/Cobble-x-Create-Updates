@@ -1,0 +1,13 @@
+name = "Brecher's Breeding - Cobblemon"
+filename = "brecher_breeding-1.0.5-1.21.1_neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9764f9cdbe81e679b26bc4b25688a5cd6a1d4242"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9251679
+project-id = 1733103

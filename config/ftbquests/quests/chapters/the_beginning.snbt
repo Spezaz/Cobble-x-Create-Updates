@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: "251C8BFBCB3F28C7"
+	id: "79D9CAA70042F6CF"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:oak_log"
+		}
+		id: "70ED6E91E7F13E68"
+		tasks: [{
+			id: "379C54FCCBC733AD"
+			item: { count: 1, id: "minecraft:oak_log" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

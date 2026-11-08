@@ -1,0 +1,84 @@
+{
+  "_comment": "Cobble Bosses. allowBossCapture=false disables capturing every boss. structures.generate=false turns natural generation off (/place still works). rewards.lootRadius = maximum distance from the boss to receive rewards; rewards.lootShareByDamage splits the loot by who dealt the most damage instead of giving everything to one player.",
+  "worldEventsEnabled": true,
+  "worldEventMinIntervalTicks": 24000,
+  "bossDamageMultiplier": 1.0,
+  "_bossAttack_help": "bossDamageMultiplier = damage the boss TAKES. bossAttackDamageMultiplier = damage boss attacks deal to players. armorPiercing (0-1) = share of armor reduction the boss ignores (0 = vanilla armor, 0.5 = full netherite blocks half of what it normally would).",
+  "bossAttackDamageMultiplier": 1.0,
+  "armorPiercing": 0.5,
+  "multiplayerDamagePerPlayer": 0.2,
+  "multiplayerDamageMax": 2.0,
+  "multiplayerSplitAttacks": true,
+  "multiplayerSplitWindowTicks": 100,
+  "cobbleStrikeMoves": true,
+  "allowBossCapture": false,
+  "captureRateMultiplier": 1.0,
+  "maxCapturesPerPlayer": 0,
+  "rewards": {
+    "allowKeyItemRewardsForAllBosses": false,
+    "blockKeyItemRewards": false,
+    "keyItemFilters": [
+      "mega_showdown",
+      "megamons",
+      "megamons_plus"
+    ],
+    "refillLootChests": true,
+    "stripHeldItemOnDefeat": true,
+    "removeKeyItemsFromGround": true,
+    "lootRadius": 32,
+    "lootShareByDamage": true,
+    "lastHitBonusMinDamageShare": 0.15,
+    "_commands_help": "Server commands run once per rewarded player for every boss, on top of items, XP and the arena chest. Text, or {\"command\": \"...\", \"chance\": 1.0, \"challenger_only\": false}. Placeholders: {player} {uuid} {boss} {species} {x} {y} {z} {dimension}, and {amount} (requires total). Optional total: non-negative integer (long). Without split_by_damage, each player receives total. Example object: {\"command\": \"cobbledollars give {player} {amount}\", \"total\": 100000, \"split_by_damage\": true, \"min_share_floor\": 0.2}. Damage means shield damage, not turn-based battle damage. Split among connected rewarded players within lootRadius; floor each amount, remainder to highest damage (first in ascending UUID order on ties). min_share_floor defaults to 0 and is clamped to [0,1]. With split_by_damage and a positive floor, each weight is max(damage share, min_share_floor), then normalized by the sum of weights. This overrides min_damage_share and also pays players with no damage, including companions. It is a weight floor, not a guaranteed percentage of total: 95/5 damage with floor 0.2 pays 82609/17391 of 100000. With no damage, a positive floor splits equally; floor 0 gives main total. Without a floor, winning with little shield damage earns little and no damage earns 0 from split commands (items/XP unchanged). min_share_floor is ignored without split_by_damage. Amounts of 0 are skipped. min_damage_share defaults to 0, applies only to split commands, and never excludes a sole rewarded player. Minimum/challenger_only/chance filter after splitting without redistributing skipped shares: challenger_only earns only the main player's proportion. Example: \"cobbledollars give {player} 25000\". A boss JSON can add its own rewards.commands and set rewards.skip_global_commands=true to skip these.",
+    "commands": [],
+    "_randomCommandRewards_help": "Weighted random extra reward, rolled independently for each rewarded player on top of the guaranteed commands. rolls = how many times each player rolls (1-10); weight = relative chance (0 or less removes the entry); challenger_only = only the player who won the battle can get it. A boss JSON can add rewards.random_command_rewards with the same format. Same placeholders as commands.",
+    "randomCommandRewards": {
+      "enabled": false,
+      "rolls": 1,
+      "rewards": []
+    }
+  },
+  "arenaProtection": {
+    "enabled": true,
+    "creativeBypass": true
+  },
+  "customBossBars": true,
+  "doubleBattles": {
+    "enabled": false,
+    "lobbyTicks": 60
+  },
+  "auraGlowColor": "dark_purple",
+  "structures": {
+    "config_version": 2,
+    "generate": true,
+    "dimensions": [
+      "minecraft:overworld",
+      "minecraft:the_nether"
+    ],
+    "min_distance_from_spawn": 600,
+    "frequency_multiplier": 1.0,
+    "per_structure": {
+      "charizard_nether": {
+        "enabled": false,
+        "frequency_multiplier": 1.0
+      },
+      "moltres_overworld": {
+        "enabled": false,
+        "frequency_multiplier": 1.0
+      }
+    }
+  },
+  "spawner": {
+    "visible": false,
+    "maxActiveBossesPerWorld": 16,
+    "maxSpawnersPerChunk": 4,
+    "_respawn_help": "Each boss block has its own respawn time (arenas ship with 72000 ticks = 1 hour of play; change one block with its config screen or /cobblebosses spawner respawn). respawnTicksOverride: -1 = use each block's time; 0 or more = force that time on ALL blocks (20 ticks = 1 s, 0 = never respawns).",
+    "respawnTicksOverride": -1
+  },
+  "arenaDestruction": {
+    "enabled": false,
+    "extraBosses": [],
+    "blocksPerPhase": 14,
+    "maxBlocksPerBoss": 150,
+    "maxRadius": 24
+  }
+}

@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "251C8BFBCB3F28C7"
+	id: "29453EB8C86887F9"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobbledon:poke_ball"
+			}
+			id: "29267C9ED7FCE84D"
+			rewards: [{
+				id: "21E62328ADAFC962"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "39006E0D6A742FB6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "3EE22EC8D99E2C2D"
+			rewards: [{
+				id: "75614F25E8B24817"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24CC631D7C63D4FC"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_door"
+			}
+			id: "4AC5E6B4E1A3401D"
+			rewards: [{
+				id: "0A172E159694262D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2026292DF5FCDB0F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "waystones:sandy_waystone"
+			}
+			id: "0DEA95C0E59E56B5"
+			rewards: [{
+				id: "74DF2E48335F4D7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CAAD7303B049A7A"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:creative_blaze_cake"
+			}
+			id: "6F66966DDA3F524E"
+			rewards: [{
+				id: "77EB981C5A37F1A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51A50410FF7485FE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

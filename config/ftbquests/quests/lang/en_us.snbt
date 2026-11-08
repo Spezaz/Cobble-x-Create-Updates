@@ -1,0 +1,52 @@
+{
+	chapter.29453EB8C86887F9.title: "Welcome"
+	chapter.79D9CAA70042F6CF.title: "Humble Beginnings"
+	chapter_group.251C8BFBCB3F28C7.title: "Introduction"
+	file.0000000000000001.title: "Cobble x Create"
+	quest.0DEA95C0E59E56B5.quest_desc: [
+		"Transportation is a big part of base Minecraft, let alone modded. So with that, I added a few mods that might help you travel the way you would like to travel! "
+		""
+		"Create: Aeronautics: Manufacture your dream airship to travel the skies or build roads and drive a tank through your world! "
+		""
+		"Create Jetpacks: A few different tiers of jetpacks with varying air capacities to start you off with some level of flight. Great for getting around your base and general use. "
+		""
+		"Waystones: The norm in almost every modpack out there."
+		""
+		"Just Dire Things: This is a mid/late game option for creative flight using the Eclipse Alloy armor set. While pricy, it sure does look cool! "
+	]
+	quest.0DEA95C0E59E56B5.title: "Transportation"
+	quest.29267C9ED7FCE84D.quest_desc: [
+		"Welcome to a world of exploration, innovation, and endless possibilities! This is Cobble x Create. "
+		""
+		"This modpack is designed to bring together the creativity of engineering, the excitement of catching new Pokemon, and the freedom to make this world an expansive experience for yourself or a few friends. "
+		""
+		"Whether you want to construct elaborate factories to automate resource production, explore unfamiliar landscapes, or build a powerful team of Pokemon, the path forward is entirely yours to discover.  "
+		""
+		"I hope you and anyone joining you on this journey have a blast! "
+	]
+	quest.29267C9ED7FCE84D.title: "Welcome "
+	quest.3EE22EC8D99E2C2D.quest_desc: [
+		"This quest book is designed to introduce essential mechanics, highlight available features that might help you along your journey, and provide guidance as you progress through this pack. "
+		""
+		"It is entirely optional and at the end of the day, it is a sandbox modpack for the player to progress how they want! "
+		""
+		"With that being said, there are some end game items that this questbook might help you obtain through the different ages of Create. You can check those out under the \"Create\" tab in the quest book. "
+	]
+	quest.3EE22EC8D99E2C2D.title: "FTB Quests"
+	quest.4AC5E6B4E1A3401D.quest_desc: [
+		"FTB chunks allows the player to force load chunks no matter where they are. The default for this is set to 25 chunks so use them wisely! "
+		""
+		"Also, it gives players chunk protection that protect players from griefing, explosion, privacy, etc. "
+		""
+		"All of these can be adjusted and configured in game by an operator. "
+	]
+	quest.4AC5E6B4E1A3401D.title: "FTB Chunks "
+	quest.6F66966DDA3F524E.quest_desc: [
+		"While I did say this is a sandbox modpack, there are late game progression trees that are totally optional. "
+		""
+		"While the progression is optional, this progression allows you to craft creative items from the Create mod. One of which being the creative physics staff for simulated contraptions. "
+		""
+		"If you are interested in progressing through it and making it to the TRUE end game of this pack, feel free to check out your options in the \"Creative\" chapter.  "
+	]
+	quest.6F66966DDA3F524E.title: "Creative Items "
+}

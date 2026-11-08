@@ -1,0 +1,37 @@
+
+[
+  {
+    "mob": [
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:mule",
+      "minecraft:rabbit",
+      "minecraft:goat",
+      "minecraft:llama",
+      "minecraft:trader_llama",
+      "minecraft:camel",
+      "minecraft:mooshroom",
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:tropical_fish",
+      "minecraft:pufferfish",
+      "minecraft:squid",
+      "minecraft:glow_squid",
+      "minecraft:dolphin",
+      "minecraft:turtle",
+      "minecraft:axolotl",
+      "minecraft:frog",
+      "minecraft:tadpole",
+      "minecraft:bat"
+    ],
+    "spawntype": [
+      "natural",
+      "chunk_generation"
+    ],
+    "result": "deny"
+  }
+]

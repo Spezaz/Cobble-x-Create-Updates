@@ -1,0 +1,13 @@
+name = "Cobblemon Pokédex (Cobbledex)"
+filename = "cobbledex-1.21.1-neoforge-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bae2a706c4cdcf35c4f24d61f59bca3986f82b1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8979954
+project-id = 1037354

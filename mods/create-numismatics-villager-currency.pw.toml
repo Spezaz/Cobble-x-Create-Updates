@@ -1,0 +1,13 @@
+name = "Create: Numismatics: Villager Currency"
+filename = "villagercurrency-1.2.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a840fa53d9a935046f2993380ed47a3f0409d6f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8423784
+project-id = 1551106

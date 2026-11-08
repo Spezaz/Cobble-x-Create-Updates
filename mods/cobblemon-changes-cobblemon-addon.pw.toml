@@ -1,0 +1,13 @@
+name = "Cobblemon Changes [Cobblemon Addon]"
+filename = "cobblemon_changes-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "300c325bcccd0c3509cec950693fef6c8d06aa94"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7694830
+project-id = 1470008
