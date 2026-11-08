@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "cfe4926da6a969b19fef96b0f04c4b32eab8c7d8ac1f157ba9ba7c239d9f6704"
-
-[[files]]
 file = "config/EasyMSC/attributes.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
