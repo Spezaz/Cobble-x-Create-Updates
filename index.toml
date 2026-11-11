@@ -742,7 +742,7 @@ hash = "79841608035b5d1bef1c633ca691ede254fef7f7d11ba83647b59784429b2595"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "2a3718cdca8597748218f61d6efb73c51cdf59bcb450c2c7df3045c6c28e2d63"
+hash = "2d13c5d523e42e22bffd3066a79045aebe7951f6728fe71744a2ca37bbe37053"
 
 [[files]]
 file = "config/cobblemonintegrations-common.toml"
@@ -1586,7 +1586,7 @@ hash = "fea22def4a675a7bda428aeced4e5724aa4080fec6b01f2432afa4d18fbb13a2"
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "b221ed92c1610c3891ab13bd6962ada7b535b9edaa133ef1241141faf6cc2644"
+hash = "1306a80141d0fe16abf7a3bdea5f73bb25b281837c90afca5eba00b316bd1f1c"
 
 [[files]]
 file = "config/relics.yaml"
@@ -1837,6 +1837,10 @@ file = "kubejs/config/web_server.json"
 hash = "1a2c9038f7d92cd89f65ba1fcfe741e7c1fc7cf9b5c44cb3beaf2fdad904c31b"
 
 [[files]]
+file = "kubejs/server_scripts/jdt_create_integration.js"
+hash = "74273f64d9c02acd5461246a549a1cd2b7b7dcfe0e2bd7e6c4a828e4c734c591"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
@@ -1901,7 +1905,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "4b78352cbccdb3400530955a3e1271b2a60aec604e26e2ecdbf840faf0457d47"
+hash = "6207706727f83484fb4af7d22f0d97d055a0f5d8248036618e84a9a7b5e174ae"
 metafile = true
 
 [[files]]
@@ -1916,7 +1920,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "d74cb918145d8e42cac4fb29f0216a00224810f1d56e91c033a0743574042b85"
+hash = "13dc68f3429beff58fd9d02b2d48318087fc7e1281163587f07df40fd1e6a44a"
 metafile = true
 
 [[files]]
@@ -2046,7 +2050,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-cobble-bosses.pw.toml"
-hash = "c7a1f1a8ba88fc4d8bd04c39b72d97db565c36c8314621f08cca13ea00dbd573"
+hash = "1a557df7dc36c0a3c63353353f798ed00094bce37d948f5b546e177413792b12"
 metafile = true
 
 [[files]]
@@ -2111,7 +2115,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-ropes.pw.toml"
-hash = "5ded9cce907490bfb24798fb5edb1133c88ee76378d4c0f64138a7e1583de8df"
+hash = "2c3c0c595fc61e3df5806d713904650a965780b5d34ea9be6287446bcab75f2a"
 metafile = true
 
 [[files]]
@@ -2206,7 +2210,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "056aacc6cc26cdbb69f91a55c1593cb4fb8106dcd4aaa3c1c0ca2c9019caddd8"
+hash = "114b7064674ad8f1551282bb51689b5d302bf0b6b9ef1a79f632e7dec2e0a7ae"
 metafile = true
 
 [[files]]
@@ -2226,7 +2230,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "d38d0f57eac5d6a1d1e49dfb3aa6a1cd4c253b5f7c9bf034b5b169b917a77fca"
+hash = "66dad0a817d432dc7937a406af556e8cc877711cf942aeec4a04406ee48148c9"
 metafile = true
 
 [[files]]
@@ -2331,7 +2335,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "fb34c9e6bdab66fb3f06b64d609f6f88d9c4609260006f4f54a0b566e1857dff"
+hash = "6543ea97d951fa7e7f736b808c37b8b84a6c7a5d9a79adc2b90fdfbffe31d7d7"
 metafile = true
 
 [[files]]
@@ -2495,6 +2499,11 @@ hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "6bb2c2ee340c3c55c54b4a10759f2da2ed725998ba70d58176b2e618ba600ee5"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
@@ -2516,7 +2525,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "9848decdf473b051abd7659db09bf470757e506bca5055d96d3973cfd43af260"
+hash = "f3b17c2dbcc3618721dab2718ce0890a112bc06ff66d03049636f1659dbad636"
 metafile = true
 
 [[files]]
@@ -2631,7 +2640,7 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "b0c3d1ba984a9188d074634f45f17e3e2a248d5324b438f2ba4d18b3894b360e"
+hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
 
 [[files]]
@@ -2811,7 +2820,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "b359f7ca216103300226ce7e9715099e8244dc60f0197625c3f522e20bce306d"
+hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
 metafile = true
 
 [[files]]
@@ -2851,17 +2860,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f87df94252052022b6f742afc834092a594e4e6fdedf3837cfccc899aaa462d6"
+hash = "9bc110bc3856f564d2da98ae94a2ac91514cf9a206089b3607657468e98bf198"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8ea22b52142b97ea8b5bd0d732c5a59e9184b2b999d3d448c74186466d0e1e06"
+hash = "16d70fa9a31de70bcdb2eae8a622ef2db619ad4377181aee1b22d68bcee90fdb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "f80ded04805b3c43a47b1915dcec768cfd37fc94cf189749e07a7a42d94ff9d6"
+hash = "aef93a20593974a84448063b6ad719ae925f6fb4be31d721a4b99339ab5c1776"
 metafile = true
 
 [[files]]
@@ -2906,7 +2915,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "b4839b51f328fbd3af8addab6905f444a425ffd8d540966766bbe2947528cba8"
+hash = "1b2e04e6d7ecdc77dd2a0396a1b592309013aa72eb4811ec0f52959cac995c99"
 metafile = true
 
 [[files]]
