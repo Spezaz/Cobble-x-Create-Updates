@@ -1717,6 +1717,10 @@ file = "config/sophisticatedstorage-server.toml"
 hash = "0829ac7bfb386cee8c51fca99d0eeddd9e5cca1885398eae6594d45215ae21ad"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "9a2447706ea457880a94c96745a7898d6c302b21ce70773f43d33a26b0eef6aa"
+
+[[files]]
 file = "config/storagenetwork-common.toml"
 hash = "ae9c885e8be9f02a705652d5f371f046471c4f80736e7ff720a00ed428bc0b31"
 
@@ -1730,7 +1734,7 @@ hash = "b022071d06a24e2b02ba79544260bd204071756c17a5be5155342e13e5858377"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "0bc5c18bcd55e2f3c35d060303f441a364d03a625d581b9dca4eefb47716aa81"
+hash = "f8159cd49fec4f6faefa98cff420db36861d71bba7aaa0a55c898b860da75f09"
 
 [[files]]
 file = "config/tempad-client.jsonc"
