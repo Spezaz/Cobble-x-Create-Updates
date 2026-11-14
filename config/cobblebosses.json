@@ -55,7 +55,7 @@
       "minecraft:the_nether"
     ],
     "min_distance_from_spawn": 600,
-    "frequency_multiplier": 1.0,
+    "frequency_multiplier": 0.5,
     "per_structure": {
       "charizard_nether": {
         "enabled": false,

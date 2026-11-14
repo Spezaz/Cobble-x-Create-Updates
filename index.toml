@@ -714,7 +714,7 @@ hash = "d90ec847024f733672f553bca164a158922eb0697ba5d618675ed7e7936801b6"
 
 [[files]]
 file = "config/cobblebosses.json"
-hash = "bc707956b0119c1cb4ab9581996a2046cecbb1be0cfb0fd6711603e7281dcd26"
+hash = "5898740ae7f486ea91b1d1f2c156dd6a5813d39e9b8637b26e1a2a8e593905cd"
 
 [[files]]
 file = "config/cobbledex/rewards.json"
@@ -1730,7 +1730,7 @@ hash = "b022071d06a24e2b02ba79544260bd204071756c17a5be5155342e13e5858377"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "50dac258302f549620d205dc009ca4698eed0e6c9f6e4cac8ec8548337be5bd1"
+hash = "9748c28e4f736ab2667e1fc25c7ce46a15ded7636878c4796c098043d200aff3"
 
 [[files]]
 file = "config/tempad-client.jsonc"
@@ -2519,6 +2519,11 @@ hash = "b308dfacb39de2e41e90ea4e5489d0075b60ed0e3f2a7d4e5d57ea8343db9a57"
 metafile = true
 
 [[files]]
+file = "mods/improved-village-placement.pw.toml"
+hash = "814aa044e2b8f4da4df78f9cfcff90f17db7570a7468ace97102e40410e3131a"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "d24d01bc01bb095d47c905a778ebe27d14a568cd9e39e63a614b1223b33a7254"
 metafile = true
@@ -2879,6 +2884,11 @@ hash = "aef93a20593974a84448063b6ad719ae925f6fb4be31d721a4b99339ab5c1776"
 metafile = true
 
 [[files]]
+file = "mods/sparse-structures.pw.toml"
+hash = "39f04c55a2bd99df584fe260b0cccfcbda4bb1dfb553fb615517bf4449f4d446"
+metafile = true
+
+[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
@@ -2886,6 +2896,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-onion.pw.toml"
 hash = "afffc859e06a4e478f1eaec078aeb3ba57328491720343cc906ba6bf686f7928"
+metafile = true
+
+[[files]]
+file = "mods/structure-generation-improver-sgi-foundations.pw.toml"
+hash = "c1d9c094a5852c89b8f815a5526803f6bd0fa720613fbf756f7a57068725c91b"
 metafile = true
 
 [[files]]
