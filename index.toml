@@ -1730,7 +1730,7 @@ hash = "b022071d06a24e2b02ba79544260bd204071756c17a5be5155342e13e5858377"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "147426914056f06634a032329c76f82cd6c812da9c5b3e3e421177d7b8bf0caf"
+hash = "53a41152d0b0e1672e1a411739ef352226a7da523cd604ac1d06796af5d1c60a"
 
 [[files]]
 file = "config/tempad-client.jsonc"
