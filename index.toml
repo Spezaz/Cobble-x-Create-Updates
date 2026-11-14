@@ -2649,6 +2649,11 @@ hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
 
 [[files]]
+file = "mods/midgardd.pw.toml"
+hash = "1982346573f60ab5b1188e1c91a2287392919ec5a7312a9cdc83f1de6a480d07"
+metafile = true
+
+[[files]]
 file = "mods/mob-grinding-utils.pw.toml"
 hash = "ed334bd8ff25757d72ac569a854f0a846b786d7704c2c36ebd95c00b97c7a6fe"
 metafile = true
@@ -2681,6 +2686,11 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "8938803461885a35dfad98d00ba94ea4d56926b263e623a53b170a1997e9bb6d"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "156c0d34d5eb2cd6fdb07ee606770fc2f2a6867923ba4eed313e40042ca560ae"
 metafile = true
 
 [[files]]
@@ -2941,6 +2951,11 @@ metafile = true
 [[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "4c2ebca514c1361d66b449611059a1d4024be6cf5cc33ca3ed274bc355109dae"
+metafile = true
+
+[[files]]
+file = "mods/treeplacer.pw.toml"
+hash = "9d6cbb30ac025acb0bdabe4ef1bc324ee57ccc46347720a81a8a4d8aaa3423f5"
 metafile = true
 
 [[files]]
