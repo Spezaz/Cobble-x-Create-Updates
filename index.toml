@@ -2849,6 +2849,11 @@ hash = "8d00e5d6c44ec2ebb13b2659225091a81c62e15b7093acbb1b37957be0465fed"
 metafile = true
 
 [[files]]
+file = "mods/simply-light.pw.toml"
+hash = "64faee9ca0fb7655cf90fde3e5abc93f38f43faf4fb3c6dd328ca90ce764c247"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
 metafile = true
